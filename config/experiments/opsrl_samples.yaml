@@ -1,0 +1,15 @@
+description: 'OPSRL_samples'
+seed: 123
+train_env: 'config/envs/env_gridworld.yaml'
+eval_env: 'config/envs/env_gridworld.yaml'
+global_init_kwargs:
+  horizon: 50
+global_fit_kwargs:
+  fit_budget: 10000
+agents:
+  - 'config/agents/opsrl01.yaml'
+  - 'config/agents/opsrl04.yaml'
+  - 'config/agents/opsrl08.yaml'
+  - 'config/agents/opsrl16.yaml'
+  - 'config/agents/opsrl32.yaml'
+

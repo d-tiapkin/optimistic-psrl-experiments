@@ -1,0 +1,15 @@
+description: 'OPSRL_vs_baselines'
+seed: 123
+train_env: 'config/envs/env_gridworld.yaml'
+eval_env: 'config/envs/env_gridworld.yaml'
+global_init_kwargs:
+  horizon: 50
+global_fit_kwargs:
+  fit_budget: 10000
+agents:
+  - 'config/agents/ucbvi.yaml'
+  - 'config/agents/ucbviB.yaml'
+  - 'config/agents/opsrl08.yaml'
+  - 'config/agents/psrl.yaml'
+  - 'config/agents/rlsvi.yaml'
+

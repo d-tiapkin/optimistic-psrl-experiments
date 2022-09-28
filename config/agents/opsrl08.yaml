@@ -1,0 +1,6 @@
+agent_class: 'algorithms.opsrl.opsrl.OPSRLAgent'
+init_kwargs:
+  gamma: 1.0
+  prior_transition: optimistic
+  thompson_samples: 8
+  stage_dependent: False

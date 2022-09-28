@@ -1,0 +1,5 @@
+agent_class: 'rlberry.agents.rlsvi.RLSVIAgent'
+init_kwargs:
+  gamma: 1.0
+  scale_std_noise: 1.0
+  stage_dependent: False
